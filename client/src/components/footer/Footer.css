@@ -1,0 +1,27 @@
+.main-first-one {
+  float: right;
+  width: 30%;
+  line-height: 2.5em;
+  padding:10px;
+ 
+  
+}
+.main-first-two {
+  float: left;
+  width: 30%;
+  line-height: 2.5em;
+  padding:20px;
+  text-decoration: none;
+ 
+  
+}
+ul{
+  list-style-type:none;
+}
+
+/* Clear floats after the columns */
+.main-first:after {
+  content: "";
+  display: table;
+  clear: both;
+}

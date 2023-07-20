@@ -1,0 +1,53 @@
+.userneeds {
+    display: flex;
+    justify-content: center;
+    color: #555;
+}
+.userneeds .container {
+    background-color: transparent;
+    width: 1400px;
+    padding: 50px 0px;
+}
+.userneeds .container .title {
+    display: flex;
+    margin: 10px;
+}
+.userneeds .container .title button {
+    background-color: white;
+    color:rgb(98, 235, 197) ;
+    font-weight: 500;
+    border: 2px solid rgb(98, 235, 197) ;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.userneeds .container .title button :hover{
+background-color:rgb(98, 235, 197) ;
+color:white;
+border: 2px solid rgb(98, 235, 197);
+
+flex-direction:row;
+}
+
+.userneeds .container table {
+    width: 70%;
+}
+.userneeds .container table tr {
+    height: 50px;
+}
+.userneeds .container table tr th {
+    text-align: left;
+}
+.userneeds .container table tr td sup {
+    font-size: 12px;
+}
+.userneeds .container table tr td .image {
+    width: 50px;
+    height: 25px;
+    object-fit: cover;
+}
+.userneeds .container table tr td .delete {
+    width: 20px;
+    cursor: pointer;
+}
+

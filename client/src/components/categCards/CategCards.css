@@ -1,0 +1,31 @@
+.categCards {
+    width: 252px;
+    height: 344px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+ }
+ 
+ .categCards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 80%;
+ }
+ 
+ .categCards .desc {
+    font-weight: 300;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+ }
+ 
+ .categCards .title {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    font-size: 24px;
+    font-weight: 600;
+ }
+ 

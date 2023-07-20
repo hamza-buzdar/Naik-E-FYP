@@ -1,0 +1,94 @@
+.needCard {
+    margin: 30px;
+    width: 280px;
+    height: 400px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 40px;
+   
+ }
+ 
+ .needCard img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+ }
+ 
+ .needCard .info {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ 
+ .needCard .info .user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ 
+ .needCard .info .user img {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ 
+ .needCard .info p {
+    color: #111;
+ }
+ 
+ .needCard .info .star {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ }
+ 
+ .needCard .info .star img {
+    height: 14px;
+    width: 14px;
+ }
+ 
+ .needCard .info .star span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffc108;
+ }
+ 
+ .needCard hr {
+    height: 0;
+    border: 0.5px solid #e4e4e4;
+ }
+ 
+ .needCard .detail {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .needCard .detail img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    object-fit: cover;
+ }
+ 
+ .needCard .detail .price span {
+    color: #999;
+    font-size: 12px;
+   
+ }
+ 
+ .needCard .detail .price h2 {
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: end;
+    
+ }
+ 
+ .needCard .detail .price sup {
+    font-size: 12px;
+    font-weight: 300;
+ }
+ 

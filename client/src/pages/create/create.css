@@ -1,0 +1,59 @@
+.create {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .create .container {
+    background-color: transparent;
+    width: 1400px;
+    padding: 50px 0px;
+    justify-content: space-around;
+  }
+  
+  .create .container h1 {
+    width: max-content;
+    margin-bottom: 30px;
+    color: #00aded;
+    font-weight: 300;
+  }
+  
+  .create .container .sections {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .create .container .sections label {
+    color: #00aded;
+    font-size: 18px;
+  }
+  
+  .create .container .sections .info,
+  .create .container .sections .details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .create .container .sections .info input,
+  .create .container .sections .info select,
+  .create .container .sections .info textarea,
+  .create .container .sections .details input,
+  .create .container .sections .details select,
+  .create .container .sections .details textarea {
+    padding: 10px;
+  }
+  
+  .create .container .sections .info button,
+  .create .container .sections .details button {
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: rgb(98, 235, 197);
+    cursor: pointer;
+  }
+  

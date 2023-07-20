@@ -1,0 +1,125 @@
+.navbar {
+
+   width: 100%;
+   display: flex;
+   align-items: flex-end;
+
+   position: relative;
+   padding: 0.5rem 0rem;
+   background-color: aliceblue;
+   color: rgb(197, 26, 26);
+   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+   
+ }
+.container {
+   background-color:aliceblue;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 0px;
+  
+}
+img{background:transparent }
+
+
+
+
+.links {
+   display: flex;
+   padding-left: 6px;
+   gap: 20px;
+   color:rgb(0 173 238);
+   align-items: center;
+   font-weight: 300;
+   font-size: 20px;
+}
+
+.button {
+   color: white;
+   padding: 10px 23px;
+   border-radius: 5px;
+   border: 2px solid rgb(185, 22, 22);
+   background-color: transparent;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: rgb(42, 218, 180);
+   border-color: black;
+}
+
+.menu{
+
+   padding: 10px 0px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.links .user{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   cursor: pointer;
+   position: relative;
+
+
+}
+
+.links .user img {
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   object-fit: cover;
+   padding: 10px 10px;
+   /* margin-top: 100px; */
+}
+.user{
+   padding-right: 20px;
+}
+.user .link{
+   color:peachpuff;
+}
+.links :hover{
+   
+   border-bottom: 3px solid rgb(98 235 197);
+  
+}
+.link{
+   text-decoration: none;
+   color:rgb(0 173 238);
+}
+.link :hover{
+   
+   border-bottom: 3px solid rgb(98 235 197);
+  
+}
+
+.options {
+   position: absolute;
+   width: 200px;
+   top: 40px;
+   right: 5px;
+
+   padding: 10px;
+   background-color:rgb(7, 66, 66);
+   border-radius: 3px;
+   text-decoration: none;
+   display: flex;
+   flex-direction:column;
+   gap:20px;
+
+
+}
+.options :hover{
+   color:white;
+   border-bottom: 3px solid rgb(98 235 197);
+}
+.linkJoin{
+   width: 120px;
+   height:100;
+   font-size: large;
+}
+.linkJoin :hover{
+   color :rgb(98 235 197);
+   background-color: white;
+  
+}
