@@ -2,10 +2,10 @@
     "name": "mern-deploy",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
       "install-server": "cd api && npm install",
-      "start-server": "cd api && nodemon server.js",
+      "start-server": "cd api && node server.js",
       "install-client": "cd client && npm install",
       "build-client": "cd client && npm run build",
       "start-client": "cd client && npm run dev"
